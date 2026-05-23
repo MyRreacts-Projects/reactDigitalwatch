@@ -22,7 +22,7 @@ const Watch = () => {
       setDate(new Date().toDateString());
 
     }, 1000);
-
+//clear interval
     return () => {
       clearInterval(interval);
     };
